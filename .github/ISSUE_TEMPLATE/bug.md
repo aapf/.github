@@ -27,11 +27,11 @@ This issue can be reproduced by the steps below. The probability to reproduce th
 
 ### Environment configuration:
 
-The environment configured by devenv2.
+The environment information (OS, version, etc.)
 
 ### Package Version for reproduction
 
-* AA v0.0.1
+* foo v0.x.x
   * source version abc123456
-* FAB v1.3.3
+* bar v1.y.y
 
