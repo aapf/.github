@@ -1,6 +1,6 @@
 ---
 name: Task format for User Story (Japanese)
-about: Create a task for User Story to help us improve
+about: Create a task for User Story
 ---
 
 ### 作業内容:
