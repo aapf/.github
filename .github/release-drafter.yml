@@ -1,0 +1,18 @@
+# Release Drafter config yaml
+# https://github.com/marketplace/actions/release-drafter
+
+name-template: 'v$NEXT_MINOR_VERSION'
+tag-template: 'v$NEXT_MINOR_VERSION'
+change-title-escapes: '\<*_&'
+category-template: "### $TITLE"
+categories:
+  - title: 'Features'
+    labels: 'enhancement'
+  - title: 'Bug Fixes'
+    labels: 'bug'
+exclude-labels:
+  - 'not on release note'
+template: |
+  ## Changes
+
+  $CHANGES
